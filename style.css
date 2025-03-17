@@ -22,7 +22,7 @@ ul{
 }
 .list-right{
     display: flex;
-    gap:8px;
+    gap:10px;
     
     margin-left: auto;
 }
@@ -30,6 +30,8 @@ ul{
 .header{
     display: flex;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .img-cont{
@@ -43,7 +45,10 @@ img{
     aspect-ratio: 2/1;
     object-fit: contain;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .header,.cont-cont,.footer{
     background-color: #1f2937;
 }
